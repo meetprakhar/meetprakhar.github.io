@@ -130,7 +130,7 @@ header_h{
 			#header_h .button.primary {
 				box-shadow: none;
 				background-color: #ffffff;
-				color: #4696e5 !important;
+				color: #27262B !important;
 			}
 
 		#header_h label {
@@ -175,7 +175,7 @@ header_h{
 		#header_h input[type="radio"]:checked + label:before {
 			background-color: #ffffff;
 			border-color: #ffffff;
-			color: #4696e5;
+			color: #27262B;
 		}
 
 		#header_h input[type="checkbox"]:focus + label:before,
@@ -209,7 +209,7 @@ header_h{
 		}
 
 		#header_h .image_h {
-			box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
+			box-shadow: 0 0 0 4px #27262B, 0 0 0 5px rgba(255, 255, 255, 0.25);
 		}
 
 		
