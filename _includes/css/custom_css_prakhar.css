@@ -4,6 +4,8 @@
 	border: 0;
 	display: inline-block;
 	position: relative;
+	width: fit-content;
+	height: fit-content;
 	overflow: hidden;
 }
 
