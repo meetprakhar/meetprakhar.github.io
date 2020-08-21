@@ -43,9 +43,8 @@
 }
 
 #header .maincontent{ 
-	margin-top: 15vh;
-	flex-grow: 1;
-	margin-bottom: 15vh;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 
@@ -74,6 +73,8 @@
 	width: fit-content;
 	height: fit-content;
 	opacity: 1;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .more_intro_bttn {
@@ -122,15 +123,15 @@
 
 #header .DescFont {
 	 font-family: "Nunito", sans-serif;
-	 font-size: 1.5em;
+	 font-size: 19px;
 	 }
  #header .NameFont {
 font-family: "Montserrat",sans-serif;
- font-size: 3em;
+ font-size: 40px;
  }
 
  #header .FootFont {
 	/*font-family: Impact, Charcoal, sans-serif;*/
 	font-family: "Nunito", sans-serif;
-	font-size: 1em;
+	font-size: 15px;
 	}
