@@ -117,12 +117,11 @@
 }
 
 #header .DescFont {
-	 /*font-family: Impact, Charcoal, sans-serif;*/
 	 font-family: "Nunito", sans-serif;
 	 font-size: 1.5em;
 	 }
  #header .NameFont {
-font-family: Impact, Charcoal, sans-serif;
+font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
  font-size: 3em;
  }
 
