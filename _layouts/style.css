@@ -1,7 +1,4 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 {% include css/custom_css_prakhar.css %}
-{% include css/main.css %}
-{% include css/noscript.css %}
-{% include css/fontawesome-all.min.css %}
 {{ content }}
