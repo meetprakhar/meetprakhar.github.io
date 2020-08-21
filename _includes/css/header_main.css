@@ -74,7 +74,7 @@ header_h{
 /* header_h */
 
 	#header_h {
-		background-color: #4696e5;
+		background-color: #27262B;
 		color: #d1e5f9;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
@@ -89,7 +89,7 @@ header_h{
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+		background-image: url("../../img/site_img/overlay.png"), url("../../img/site_img/pattern-size1.svg");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
@@ -341,7 +341,7 @@ header_h{
 		@media screen and (max-width: 1280px) {
 
 			#header_h {
-				background_image: url("images/overlay.png"), url("images/pattern-size2.svg");
+				background-image: url("../../img/site_img/overlay.png"), url("../../img/site_img/pattern-size2.svg");
 			}
 
 		}
@@ -392,7 +392,7 @@ header_h{
 		@media screen and (max-width: 736px) {
 
 			#header_h {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
+				background-image: url("../../img/site_img/overlay.png"), url("../../img/site_img/pattern-size3.svg");
 			}
 
 				#header_h h1 {
