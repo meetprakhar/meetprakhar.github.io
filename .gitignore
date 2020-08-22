@@ -17,11 +17,12 @@ $RECYCLE.BIN/
 *.msp
 
 # =================
-# Ruby Files
+# Ruby Files / Jekyll Files
 # =================
 
 Gemfile
 Gemfile.lock
+.jekyll-cache
 
 
 # =========================

@@ -294,11 +294,6 @@ header_h{
 				display: inline;
 			}
 
-				
-			#header_h p.hellotxt{
-				margin: auto;
-				text-align: left;
-			}
 
 		#header_h .content_h {
 			-moz-transition: opacity 0.5s ease, -moz-transform 1s ease;
@@ -417,10 +412,6 @@ header_h{
 					line-height: inherit;
 				}
 				
-				#header_h p.hellotxt{
-					margin: auto;
-					text-align: center;
-				}
 
 		}
 
