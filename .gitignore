@@ -16,6 +16,14 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+# =================
+# Ruby Files
+# =================
+
+Gemfile
+Gemfile.lock
+
+
 # =========================
 # Operating System Files
 # =========================
