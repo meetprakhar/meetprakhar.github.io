@@ -31,6 +31,10 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-dark {
+    color: #{{ site.data.template.color.secondary }};
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -549,7 +553,13 @@ section h3.section-subheading {
     color: inherit;
 }
 
-.timeline .timeline-heading h4.subheading {
+.timeline .timeline-heading h4.subheading{
+    text-transform: none;
+}
+.timeline .timeline-heading h3.subheading{
+    text-transform: none;
+}
+.timeline .timeline-heading h2.subheading{
     text-transform: none;
 }
 

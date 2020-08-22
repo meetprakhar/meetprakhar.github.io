@@ -6,37 +6,14 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- description: Seeking opportunities in the field of IoT and embedded systems. Student Coordinator of Robotics Club, IIT (ISM) Dhanbad with a demonstrated history of working with electronics. Skilled in working with microcontrollers (ARM), sensors and transducers. Experience in circuit designing, PCB designing and development. Worked with software including KiCad, Multisim and Proteus. Proficient with programming languages including Python, C, MATLAB and Java.
+
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
     - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
