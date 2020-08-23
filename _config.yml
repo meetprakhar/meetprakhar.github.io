@@ -51,18 +51,103 @@ experience:
           The details of the project can be viewed in subsequent section.'
     href: https://www.google.com
 
-#publications:
-#  - title: P1
-#    img: screen.jpg
-#    desc: Test Description
-#    href: https://www.google.com
-#
-#  - title: P2
-#    img: dreams.png
-#    desc: Test Description
-#    href: https://www.google.com
+  - title: RoboISM Robotics and AI Club, IIT Dhanbad
+    position: Vice-Precident
+    period: July 17 - July 20
+    img: testimg.png
+    desc: 'Holding this post makes me responsible for all the decisions regarding the club. It gives me the opportunity to work
+          with and lead highly skilled like people working towards a common goal, learning exceptional things in the process.'
+    href: https://www.google.com
+
+    
+publications:
+  - title: The Arctic University (UiT), Norway
+    position: Research Intern
+    period: June-Aug 20
+    img: testimg.png
+    desc: 'I worked as a research intern to build up a Scanning
+          acoustic microscope from scratch using National Instruments
+          FPGA and hardware. I also published two papers related to acoustic
+          imaging during this tenure.
+          The details of the project and the papers can be viewed in subsequent section.'
+    href: https://www.google.com
+
+  - title: Picostone Tech. Pvt. Ltd. Mumbai
+    position: Embedded Systems Intern
+    period: May-July 19
+    img: testimg.png
+    desc: 'Developed a hardware system based on NRF52 and ATMEGA 328 to automate the testing procedure for all products.
+          The device was capable of testing a circuit on parameters such as RF signal strength, Leakage current from
+          capacitors, current consumption, etc. A complete PCB was designed in KiCad. A python interface was also developed
+          to monitor all the testing procedures in the company.
+          The details of the project can be viewed in subsequent section.'
+    href: https://www.google.com
+
+  - title: RoboISM Robotics and AI Club, IIT Dhanbad
+    position: Vice-Precident
+    period: July 17 - July 20
+    img: testimg.png
+    desc: 'Holding this post makes me responsible for all the decisions regarding the club. It gives me the opportunity to work
+          with and lead highly skilled like people working towards a common goal, learning exceptional things in the process.'
+    href: https://www.google.com
 
 
+education:
+  - title: IIT (ISM) Dhanbad
+    period: 2017-Present
+    img: testimg.png
+    desc: 'I am persuing bachelor of technology in Electronics and Instrumentation. <br/>
+          CGPA: 8.58/10'
+    href: https://www.google.com
+
+  - title: The Arctic University (UiT), Norway 
+    period: 2020
+    img: testimg.png
+    desc: 'Completed a Special Curriculum on Acoustic Imaging.'
+    href: https://www.google.com
+    
+  - title: Birla School Pilani, Rajasthan
+    period: 2016
+    img: testimg.png
+    desc: 'Senior Secondary (AISSCE), CBSE Board <br />
+          96.4%'
+    href: https://www.google.com
+    
+  - title: Maharshi Patanjali Vidya Mandir, Prayagraj
+    period: 2014
+    img: testimg.png
+    desc: 'Senior Secondary (AISSCE), CBSE Board <br />
+          CGPA- 10/10'
+    href: https://www.google.com
+
+
+achievements:
+  - title: IIT (ISM) Dhanbad
+    period: 2017-Present
+    img: testimg.png
+    desc: 'I am persuing bachelor of technology in Electronics and Instrumentation. <br/>
+          CGPA: 8.58/10'
+    href: https://www.google.com
+
+  - title: The Arctic University (UiT), Norway 
+    period: 2020
+    img: testimg.png
+    desc: 'Completed a Special Curriculum on Acoustic Imaging.'
+    href: https://www.google.com
+    
+  - title: Birla School Pilani, Rajasthan
+    period: 2016
+    img: testimg.png
+    desc: 'Senior Secondary (AISSCE), CBSE Board <br />
+          96.4%'
+    href: https://www.google.com
+    
+  - title: Maharshi Patanjali Vidya Mandir, Prayagraj
+    period: 2014
+    img: testimg.png
+    desc: 'Senior Secondary (AISSCE), CBSE Board <br />
+          CGPA- 10/10'
+    href: https://www.google.com
 # Build settings
 markdown: kramdown
 permalink: pretty

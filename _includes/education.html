@@ -1,89 +1,33 @@
-<!-- About Section -->
 <section id="education">
-    <div class="container">
+    <div class="container-lg">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Education</h2>
                 <h3 class="section-subheading text-muted">Learning by practice is still the best!</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="timeline">
-                   
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2017-Present</h4>
-                                <h4 class="subheading">IIT (ISM) Dhanbad</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                I am persuing bachelor of technology in Electronics and Instrumentation. <br/>
-                                CGPA: 8.58/10    
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2020</h4>
-                                <h4 class="subheading">The Arctic University, Norway (UiT)</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    Special Semester on Acoustic Imaging.
-                                    
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2016</h4>
-                                <h4 class="subheading">Birla School Pilani, Rajasthan</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    Senior Secondary (AISSCE), CBSE Board <br />
-                                    96.4%
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2014</h4>
-                                <h4 class="subheading">Maharshi Patanjali Vidya Mandir, Prayagraj</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    Senior Secondary (AISSCE), CBSE Board <br />
-                                    CGPA - 10/10
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-8 col-lg-offset-2 col-md-9 minor internships" id="ppp_internships">
+            {% for education in site.education %}
+            
+            <div class="interntitle">
+                <a style="align-self:center;" href="{{ education.href }}"><img src="img/education/{{ education.img }}" class="internlogo" height="30"></a>
+                <div style="margin: 0 0 0 1% ; line-height: 0.2;">
+                    <p>
+                    <h4 style="margin-top:0; margin-bottom:0; text-transform: none;" class="text-dark"><b>{{ education.title }}</b></h4>
+                    <br />
+                    <h6 style="margin-top:0; margin-bottom:0;">{{ education.period }}</h6>
+                    </p>
+                </div>
             </div>
+
+            <p class="text-muted">
+                {{ education.desc }}
+            </p>
+            <br>
+            {% endfor %}
         </div>
     </div>
+</div>
 </section>

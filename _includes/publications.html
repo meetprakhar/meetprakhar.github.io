@@ -1,24 +1,33 @@
 <section id="publications" class="bg-light-gray">
-        <div class="container-lg">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Publications</h2>
-                    <h3 class="section-subheading text-muted">Newest things excites the most!</h3>
-                </div>
-            </div>
-    <div class="container">
+    <div class="container-lg">
         <div class="row">
-            <div class="col-xs-12 col-md-9 minor internships" id="ppp_internships">
-                {% for publications in site.publications %}
-                <div class="interntitle"><a href="{{ publications.href }}"><img src="img/publications/{{ publications.img }}" class="internlogo" height="30"></a>
-                    <h4><b>{{ publications.title }}</b></h4>
-                </div>
-                <p>
-                    {{ publications.desc }}
-                </p>
-                <br>
-                {% endfor %}
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">publications</h2>
+                <h3 class="section-subheading text-muted">publications is the best teacher!</h3>
             </div>
         </div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-8 col-lg-offset-2 col-md-9 minor internships" id="ppp_internships">
+            {% for publications in site.publications %}
+            
+            <div class="interntitle">
+                <a style="align-self:center;" href="{{ publications.href }}"><img src="img/publications/{{ publications.img }}" class="internlogo" height="30"></a>
+                <div style="margin: 0 0 0 1% ; line-height: 0.2;">
+                    <p>
+                    <h4 style="margin-top:0; margin-bottom:0; text-transform: none;" class="text-dark"><b>{{ publications.title }}</b></h4>
+                    <br />
+                    <h6 style="margin-top:0; margin-bottom:0;">{{ publications.position }} | {{ publications.period }}</h6>
+                    </p>
+                </div>
+            </div>
+
+            <p class="text-muted">
+                {{ publications.desc }}
+            </p>
+            <br>
+            {% endfor %}
+        </div>
     </div>
+</div>
 </section>

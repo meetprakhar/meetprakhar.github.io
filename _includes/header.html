@@ -24,6 +24,13 @@
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
+
+                    {% if site.publications.size > 0 %}
+                    <li>
+                        <a class="page-scroll" href="#publications">Publications</a>
+                    </li>
+                    {% endif %}
+
                     <li>
                         <a class="page-scroll" href="#experience">Experience</a>
                     </li>
@@ -33,6 +40,13 @@
                     <li>
                         <a class="page-scroll" href="#education">Education</a>
                     </li>
+
+                    {% if site.achievements.size > 0 %}
+                    <li>
+                        <a class="page-scroll" href="#achievements">Achievements</a>
+                    </li>
+                    {% endif %}
+
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
