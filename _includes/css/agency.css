@@ -796,7 +796,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding-top: 100px;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -805,6 +805,7 @@ ul.social-buttons li a:active {
     -webkit-box-shadow: none;
     box-shadow: none;
     display: flex;
+    flex-direction: column;
 }
 
 .portfolio-modal .modal-body {
@@ -813,6 +814,7 @@ ul.social-buttons li a:active {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    flex-grow: 1;
 }
 
 .portfolio-modal .modal-content h2 {
