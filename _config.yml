@@ -6,34 +6,56 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
-- description: Seeking opportunities in the field of IoT and embedded systems. Student Coordinator of Robotics Club, IIT (ISM) Dhanbad with a demonstrated history of working with electronics. Skilled in working with microcontrollers (ARM), sensors and transducers. Experience in circuit designing, PCB designing and development. Worked with software including KiCad, Multisim and Proteus. Proficient with programming languages including Python, C, MATLAB and Java.
-
+- description: 'Seeking opportunities in the field of IoT and embedded systems. 
+                Student Coordinator of Robotics Club, IIT (ISM) Dhanbad with a demonstrated history of working with electronics. Skilled in working with microcontrollers (ARM), sensors and transducers. Experience in circuit designing, PCB designing and development.
+                Worked with software including KiCad, Multisim and Proteus. Proficient with programming languages including Python, C, MATLAB and Java.'
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: envelope-o
+      url: 'mailto: pka.alld.97@gmail.com'
+    - title: linkedin-square
+      url: https://in.linkedin.com/in/prakhar-kumar-iitism
+    - title: github
+      url: https://github.com/meetprakhar
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: envelope-o
+    url: 'mailto: pka.alld.97@gmail.com'
+  - title: linkedin-square
+    url: https://in.linkedin.com/in/prakhar-kumar-iitism
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: https://www.facebook.com/prakhar.kumar.100
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/meetprakhar
+
+experience:
+  - title: A
+    img: screen.jpg
+    desc: Test Description
+    href: https://www.google.com
+
+  - title: B
+    img: dreams.png
+    desc: Test Description
+    href: https://www.google.com
+
+#publications:
+#  - title: P1
+#    img: screen.jpg
+#    desc: Test Description
+#    href: https://www.google.com
+#
+#  - title: P2
+#    img: dreams.png
+#    desc: Test Description
+#    href: https://www.google.com
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
 
 # Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
-
-# Build settings
-markdown: kramdown
-permalink: pretty

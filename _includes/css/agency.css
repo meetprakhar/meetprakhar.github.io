@@ -561,6 +561,9 @@ section h3.section-subheading {
 .timeline .timeline-heading h2.subheading{
     text-transform: none;
 }
+.timeline .timeline-heading h5.subheading{
+    text-transform: none;
+}
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
@@ -636,7 +639,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px 10px;
+        padding: 0 20px 20px 100px;
     }
 
     .timeline>li .timeline-image {
@@ -650,7 +653,7 @@ section h3.section-subheading {
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 10px 20px 20px;
+        padding: 0 100px 20px 20px;
     }
 }
 
