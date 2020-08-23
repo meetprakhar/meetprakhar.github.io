@@ -804,6 +804,15 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    display: flex;
+}
+
+.portfolio-modal .modal-body {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 .portfolio-modal .modal-content h2 {

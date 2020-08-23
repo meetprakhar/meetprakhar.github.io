@@ -11,24 +11,19 @@
             </div>
             
             <div class="container">
-                
-                <!--content-->
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
+                     <div class="modal-body">
+                            <!--<h2>{{ post.title }}</h2>-->
+                            <!--<hr class="star-primary">-->
                             <!--<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"> -->
                             <!--<p>{{ post.description }}</p>-->
                             
                             <iframe 
                             src="./assets/ProjPages/{{ post.hlink }}" 
-                            style="width: 100%; height: 80vh; position: relative;"
+                            style="border: none; flex-grow: 1;"
                             >
                             </iframe>
                             
-                            <ul class="list-inline item-details">
+                            <ul class="list-inline item-details" style="margin-top: 5%;">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
                                     </strong>
@@ -42,13 +37,11 @@
                                     </strong>
                                 </li>
                             </ul>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
 
-
-            </div>
-        </div>
     </div>
 {% endfor %}
