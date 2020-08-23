@@ -29,14 +29,26 @@ social:
     url: https://github.com/meetprakhar
 
 experience:
-  - title: A
-    img: screen.jpg
-    desc: Test Description
+  - title: The Arctic University (UiT), Norway
+    position: Research Intern
+    period: June-Aug 20
+    img: testimg.png
+    desc: 'I worked as a research intern to build up a Scanning
+          acoustic microscope from scratch using National Instruments
+          FPGA and hardware. I also published two papers related to acoustic
+          imaging during this tenure.
+          The details of the project and the papers can be viewed in subsequent section.'
     href: https://www.google.com
 
-  - title: B
-    img: dreams.png
-    desc: Test Description
+  - title: Picostone Tech. Pvt. Ltd. Mumbai
+    position: Embedded Systems Intern
+    period: May-July 19
+    img: testimg.png
+    desc: 'Developed a hardware system based on NRF52 and ATMEGA 328 to automate the testing procedure for all products.
+          The device was capable of testing a circuit on parameters such as RF signal strength, Leakage current from
+          capacitors, current consumption, etc. A complete PCB was designed in KiCad. A python interface was also developed
+          to monitor all the testing procedures in the company.
+          The details of the project can be viewed in subsequent section.'
     href: https://www.google.com
 
 #publications:
