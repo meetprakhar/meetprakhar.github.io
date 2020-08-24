@@ -3,6 +3,9 @@ title: Prakhar Kumar
 email: pka.alld.97@gmail.com
 description: "A Hardware Lover. | Maker"
 
+#  Excerpt Seperator
+excerpt_separator: <!--seperate-->
+
 # Google services
 track: 1
 
@@ -18,6 +21,8 @@ people:
       url: https://in.linkedin.com/in/prakhar-kumar-iitism
     - title: github
       url: https://github.com/meetprakhar
+    - title: phone
+      url: 'tel:+91-9559801909'
 
 # Social networks usernames for Footer
 social:
@@ -29,6 +34,8 @@ social:
     url: https://www.facebook.com/prakhar.kumar.100
   - title: github
     url: https://github.com/meetprakhar
+  - title: phone
+    url: 'tel:+91-9559801909'
 
 # The experience section Fills from Here    
 experience:
