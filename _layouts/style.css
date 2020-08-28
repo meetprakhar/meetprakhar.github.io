@@ -2,4 +2,3 @@
 {% include css/agency.css %}
 {% include css/header_main.css %}
 {% include css/other_styles.css %}
-{{ content }}
