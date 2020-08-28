@@ -1,0 +1,114 @@
+---
+modal-id: 1
+title: IIT(ISM) FYK
+subtitle: Android Application
+layout: post
+date: 2020-08-28
+thumbnail: fyk/thumbnail.webp
+permalink: /projects/:title:output_ext
+alt: :title
+project-date: July 2017
+category: Android
+description: Eduational App built specifically for the first year students of IIT(ISM) Dhanbad.
+---
+
+<body style="text-align: left;">
+    <style>
+        div.scrollmenu {
+            overflow: auto;
+            white-space: nowrap;
+            margin: 5%;
+        }
+
+        div.scrollmenu img {
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+
+
+    <div style="text-align: center; margin: auto;">
+        <img src="../projects/img/portfolio/fyk/p0.webp">
+    </div>
+
+    <div style="text-align: center;">
+        <h2><a href="https://play.google.com/store/apps/details?id=com.meet404codergmail.iitismfyk"> IIT (ISM) FYK: First Year Kit</a></h2>
+        <p>
+            This android app was created to bridge the academic gap between the freshers and the seniors, along with a
+            ton of other useful features. It is a one-stop place where the first-year students can find all the required
+            academic documents, including the schedule, assignment solution, etc.
+        </p>
+        <br clear="left" />
+    </div>
+
+    <hr>
+    <div id="hori_scroll_mouse" class="scrollmenu">
+        <img src="../projects/img/portfolio/fyk/p1.webp">
+        <img src="../projects/img/portfolio/fyk/p2.webp">
+        <img src="../projects/img/portfolio/fyk/p3.webp">
+        <img src="../projects/img/portfolio/fyk/p4.webp">
+        <img src="../projects/img/portfolio/fyk/p5.webp">
+        <img src="../projects/img/portfolio/fyk/p6.webp">
+        <img src="../projects/img/portfolio/fyk/p7.webp">
+    </div>
+    <hr style="margin-bottom: 20px;">
+
+    <div>
+        Its a multi functional tool built to cater the academic needs of all those freshers who are in search of top quality resources.
+        I believe that all those capable minds just need direction. In that context I built the app.
+        
+        <div style="margin-top: 50px;">
+            <h4>Functionalities:</h4>
+            <hr>
+        <ul>
+        <li>Find the hardest to find books right here.</li>
+        <li>Simple any easy operation makes you see only what you want. Now you can leave the task of making notes to toppers. Just sit back and learn on the move.</li>
+        <li>If you can't remember lanes or can't find the right Building you are called, Don't panic
+         we have made that easy.(Although it open in 3rd party apps for now).</li>
+        <li>Wanted to know the names, contacts or emails of your profs. or you are asked for full names, now get what you need just by tap of a button.</li>
+        <li>Now you can buy or sell the books within the campus when you no longer need them. We allow you to put up request for the same and tell you which door to knock.</li>
+        <li>Get notifications for important announcements, no more scanning for notices.</li>
+        <li>Hoped someone credited you for your hard works in academics, Well we do, just send in those (notes, solutions, papers, boots etc.) using the app and we'll put that up for the world to see and benefit.</li>
+        </ul>
+
+        With all this said, Just Install and put time in more relevant stuff than finding them.
+
+        <div style="text-align: center; margin: 10px;">
+            <a href='https://play.google.com/store/apps/details?id=com.meet404codergmail.iitismfyk&hl=en_IN&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                <img style="height: 20%; width: 20%;" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+            </a>
+        </div>
+    </div>
+
+
+    <div style="margin-top: 50px;">
+        <h4>The Resources Used:</h4>
+        <hr>
+        <p>
+            The App is written in <b>Java</b> using the <b>Android Studio IDE</b>. All the creative resources were taken from free vector image websites and were editted using <b>Adobe Photoshop</b>.
+        </p>
+    </div>
+
+
+    <!--Script to enable horizontal mouse wheel support to a div-->
+    <script>
+        (function() {
+            function scrollHorizontally(e) {
+                e = window.event || e;
+                var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+                document.getElementById('hori_scroll_mouse').scrollLeft -= (delta*40); // Multiplied by 40
+                e.preventDefault();
+            }
+            if (document.getElementById('hori_scroll_mouse').addEventListener) {
+                // IE9, Chrome, Safari, Opera
+                document.getElementById('hori_scroll_mouse').addEventListener("mousewheel", scrollHorizontally, false);
+                // Firefox
+                document.getElementById('hori_scroll_mouse').addEventListener("DOMMouseScroll", scrollHorizontally, false);
+            } else {
+                // IE 6/7/8
+                document.getElementById('hori_scroll_mouse').attachEvent("onmousewheel", scrollHorizontally);
+            }
+        })();
+        </script>
+</body>
