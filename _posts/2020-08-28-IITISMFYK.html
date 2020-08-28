@@ -28,6 +28,12 @@ description: Eduational App built specifically for the first year students of II
             text-align: center;
             text-decoration: none;
         }
+
+        .button-add {
+            background-color: transparent; /* make the button transparent */
+            background-repeat: no-repeat;  /* make the background image appear only once */
+            border: none;           /* assuming we don't want any borders */
+        }
     </style>
 
 
@@ -58,8 +64,8 @@ description: Eduational App built specifically for the first year students of II
     </div>
     
     <div style="text-align: center;">
-        <button id="slideLeft" type="button">&lt</button>
-        <button id="slideRight" type="button">&gt</button>
+        <button id="slideLeft" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-left"></i></button>
+        <button id="slideRight" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-right"></i></button>
     </div>
 
     <div class="separator" style="margin-bottom: 20px;">★</div>

@@ -4,7 +4,7 @@ title: Mess Maestro
 subtitle: Android Application
 layout: post
 date: 2020-08-28
-thumbnail: mess_maestro/thumbnail.webp
+thumbnail: mess_maestro/thumbnail.png
 permalink: /projects/:title:output_ext
 alt: :title
 project-date: July 2017
@@ -28,70 +28,152 @@ description: An app to prevent food wastage in mess.
             text-align: center;
             text-decoration: none;
         }
+        
+        div.scrollmenu .inner_scroll_hori {
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            margin:auto 10px
+        }
+
+        figcaption {
+            font-style: italic;
+            padding: 2px;
+            text-align: center;
+        }
+
+        .button-add {
+            background-color: transparent; /* make the button transparent */
+            background-repeat: no-repeat;  /* make the background image appear only once */
+            border: none;           /* assuming we don't want any borders */
+        }
+
     </style>
 
 
     <div style="text-align: center; margin: auto;">
-        <img src="../projects/img/portfolio/fyk/p0.webp">
+        <img src="../projects/img/portfolio/mess_maestro/p0.png">
     </div>
 
     <div style="text-align: center;">
-        <h2><a href="https://play.google.com/store/apps/details?id=com.meet404codergmail.iitismfyk"> IIT (ISM) FYK: First Year Kit</a></h2>
+        <h2><a href="https://play.google.com/store/apps/details?id=com.meet404coder.messmaestro"> Mess Maestro</a></h2>
         <p>
-            This android app was created to bridge the academic gap between the freshers and the seniors, along with a
-            ton of other useful features. It is a one-stop place where the first-year students can find all the required
-            academic documents, including the schedule, assignment solution, etc.
+            Mess Maestro is an android app developed to reduce food wastage in hostel messes by providing incentives for pre-informing the mess to prepare your meal or not.
         </p>
         <br clear="left" />
     </div>
 
-    <div class="separator"> ◄ Scroll to Preview ► </div>
-    
-  <div id="hori_scroll_mouse" class="scrollmenu">
-        <img src="../projects/img/portfolio/fyk/p1.webp">
-        <img src="../projects/img/portfolio/fyk/p2.webp">
-        <img src="../projects/img/portfolio/fyk/p3.webp">
-        <img src="../projects/img/portfolio/fyk/p4.webp">
-        <img src="../projects/img/portfolio/fyk/p5.webp">
-        <img src="../projects/img/portfolio/fyk/p6.webp">
-        <img src="../projects/img/portfolio/fyk/p7.webp">
-    </div>
-    
-    <div style="text-align: center;">
-        <button id="slideLeft" type="button">&lt</button>
-        <button id="slideRight" type="button">&gt</button>
-    </div>
-
-    <div class="separator" style="margin-bottom: 20px;">★</div>
-
-
     <div>
-        Its a multi functional tool built to cater the academic needs of all those freshers who are in search of top quality resources.
-        I believe that all those capable minds just need direction. In that context I built the app.
-        
-        <div style="margin-top: 50px;">
-            <h4>Functionalities:</h4>
-            <hr>
+        <h4 style="margin-bottom: auto"> Vision </h4>
+        <hr>
+        <p>
+            All of us must have been in the pre-paid mess system at least once in their life, and we all know how much food is wasted each day due to the attendees skipping meals. The mess is bound to prepare food for everyone, eventually leading to wastage of food.
+            <br/><br/>
+            Our app provides the user to pre-inform the mess not to prepare food three days in advance, and the user is refunded money for that meal, which can be traded for additional mess single-serves such as ice-creams, etc. This enables the mess owner to efficiently manage the amount of food to prepare and reduce the wastage along with keeping a tab on double loaders, while the user also gets a refund for the skipped meal.         
+        </p>
+    </div>
+
+
+    <div style="margin-top: 40px;">
+        <h4 style="margin-bottom: auto"> Useage </h4>
+        <hr>
         <ul>
-        <li>Find the hardest to find books right here.</li>
-        <li>Simple any easy operation makes you see only what you want. Now you can leave the task of making notes to toppers. Just sit back and learn on the move.</li>
-        <li>If you can't remember lanes or can't find the right Building you are called, Don't panic
-         we have made that easy.(Although it open in 3rd party apps for now).</li>
-        <li>Wanted to know the names, contacts or emails of your profs. or you are asked for full names, now get what you need just by tap of a button.</li>
-        <li>Now you can buy or sell the books within the campus when you no longer need them. We allow you to put up request for the same and tell you which door to knock.</li>
-        <li>Get notifications for important announcements, no more scanning for notices.</li>
-        <li>Hoped someone credited you for your hard works in academics, Well we do, just send in those (notes, solutions, papers, boots etc.) using the app and we'll put that up for the world to see and benefit.</li>
+            <li>On launch, the app greets us with a simple yet effective UI having a QR Code, which is updated each day for each user. This QR contains an encrypted unique identifier for the user. This QR can then be scanned at the food serving station as a token to have the food. (Making it completely paperless!)</li>
+            
+            <li>The user can choose to inform the mess not to prepare his/her food simply by selecting the option of mess switch in the slide-pane.</li>
+            
+            <li>The Meal Switch option has the required options to select for a date and turn-off a particular meal you intend to miss. The mess is informed about your decision, and your food is not prepared.</li>
+
+            <li>For each meal turned-off, you get credits in your account, which can be redeemed for extra single-serve food or money by the end of the month.</li>
+            
+            <li>The menu for the day can also be viewed from the same options before switching off the meal.</li>
+
+            <li>Apart from this, the user can also give feedbacks about food to the mess, which can be used for quality control and retention.</li>
+                
+            <li>The admin can easily check the rating and the percentage of the people actually having food in the mess, hence enabling them to make better decisions regarding the subject.</li>
+            
         </ul>
 
-        With all this said, Just Install and put time in more relevant stuff than finding them.
+        <div class="separator"> ◄ Scroll to Preview ► </div>
+        
+        <div id="hori_scroll_mouse" class="scrollmenu">
+            <img src="../projects/img/portfolio/mess_maestro/p1.jpg">
+            <img src="../projects/img/portfolio/mess_maestro/p2.jpg">
+            <img src="../projects/img/portfolio/mess_maestro/p3.jpg">
+            <img src="../projects/img/portfolio/mess_maestro/p4.jpg">
+            <img src="../projects/img/portfolio/mess_maestro/p5.jpg">
+            <img src="../projects/img/portfolio/mess_maestro/p6.jpg">
+        </div>
+        
+        <div style="text-align: center;">
+            <button id="slideLeft" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-left"></i></button>
+            <button id="slideRight" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-right"></i></button>
+        </div>
+        
+        <div class="separator" style="margin-bottom: 20px;">★</div>
+
+        The concept not only helps prevent food wastage but also allows easy management for the mess. The serving station can now have a QR Scanner, which can be used to scan the identifier of the user and provide him with the food as required.
+    </div>
+
+    <div style="margin-top: 40px;">
+        <h4 style="margin-bottom: auto"> Implimentation </h4>
+        <hr>
+        <p>
+        The app would have had no meaningful contribution if the concept was not proven and studied thoroughly; hence we started a campaign to reduce food wastage, which saw massive support from the college.
+        <br /><br />
+        We implemented this model for a beta-test in our college for 3 weeks with the co-operation of the mess and hostel authorities. It immediately struck, and everyone loved the concept as well as the app. The food wastage showed a decrement from the 5th day of the trial giving the proof of concept required.
+        <br />
+        This was presented at the <i>7th Inter IIT Tech Meet held at IIT Bombay</i>, where it was highly appreciated by the judges.
+        </p>
+    </div>
+
+    <div style="margin-top: 40px;">
+        <h4 style="margin-bottom: auto"> Hard Work Pays Off! </h4>
+        <hr>
+        <div style="text-align: center;">
+        <img src="../projects/img/portfolio/mess_maestro/p7.jpg">
+        <figcaption>We were trending in India on the play-store on 12th December 2018! <br />A day after the release of the app! </figcaption>
+        </div>
+        
+    </div>
+
+    <div style="margin-top: 40px;">
+        With all this said, Just Install and help save food and this planet.
 
         <div style="text-align: center; margin: 10px;">
-            <a href='https://play.google.com/store/apps/details?id=com.meet404codergmail.iitismfyk&hl=en_IN&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+            <a href='https://play.google.com/store/apps/details?id=com.meet404coder.messmaestro&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
                 <img style="width: 25vh;" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
             </a>
         </div>
     </div>
 
+    <div style="margin-top: 50px;">
+        <h4>Gallery:</h4>
+        <hr>
+        <p>
+            <div class="separator"> ◄ Scroll to Preview ► </div>
+            <div id="hori_scroll_mouse1" class="scrollmenu">
+
+                <div class="inner_scroll_hori">
+                    <img src="../projects/img/portfolio/mess_maestro/p8.jpg">
+                    <figcaption>Our posters were put up <br />in the hostel mess to spread the word.</figcaption>
+                </div>
+            
+                <div class="inner_scroll_hori">
+                    <img src="../projects/img/portfolio/mess_maestro/p9.jpg">
+                    <img src="../projects/img/portfolio/mess_maestro/p10.jpg">
+                    <figcaption>Everyone quickly adapted this and <br />we ran a successful proof of concept and study.</figcaption>
+                </div>
+
+            </div>
+            <div style="text-align: center;">
+                <button id="slideLeft1" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-left"></i></button>
+                <button id="slideRight1" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-right"></i></button>
+            </div>
+            
+            <div class="separator" style="margin-bottom: 20px;">★</div>
+        </p>
+    </div>
 
     <div style="margin-top: 50px;">
         <h4>The Resources Used:</h4>
@@ -121,6 +203,39 @@ description: An app to prevent food wastage in mess.
                 document.getElementById('hori_scroll_mouse').attachEvent("onmousewheel", scrollHorizontally);
             }
         })();
+        </script>
+
+        <script>
+            (function() {
+                function scrollHorizontally(e) {
+                    e = window.event || e;
+                    var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+                    document.getElementById('hori_scroll_mouse1').scrollLeft -= (delta*40); // Multiplied by 40
+                    e.preventDefault();
+                }
+                if (document.getElementById('hori_scroll_mouse1').addEventListener) {
+                    // IE9, Chrome, Safari, Opera
+                    document.getElementById('hori_scroll_mouse1').addEventListener("mousewheel", scrollHorizontally, false);
+                    // Firefox
+                    document.getElementById('hori_scroll_mouse1').addEventListener("DOMMouseScroll", scrollHorizontally, false);
+                } else {
+                    // IE 6/7/8
+                    document.getElementById('hori_scroll_mouse1').attachEvent("onmousewheel", scrollHorizontally);
+                }
+            })();
+        </script>
+
+        <!--Script for buttons-->
+        <script>
+            const buttonRight1 = document.getElementById('slideRight1');
+            const buttonLeft1 = document.getElementById('slideLeft1');
+
+            buttonRight1.onclick = function () {
+            document.getElementById('hori_scroll_mouse1').scrollLeft += 50;
+            };
+            buttonLeft1.onclick = function () {
+            document.getElementById('hori_scroll_mouse1').scrollLeft -= 50;
+            };
         </script>
 
         <script>
