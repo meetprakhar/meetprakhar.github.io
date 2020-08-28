@@ -5,8 +5,7 @@
 {% include head.html %}
 
 <div class="proj" id="portfolioModal{{ page.modal-id }}">
-  <div class="modal-content">
-
+  <div class="container">
     <div class="close-modal" data-dismiss="modal">
       <a onclick="window.history.back()">
       <div class="lr">
@@ -16,7 +15,7 @@
       </a>
     </div>
 
-    <div class="container">
+    <div style="margin-top: 100px;">
       <article>
         {{page.excerpt}}
       </article>
@@ -28,17 +27,18 @@
 <footer style="margin-top: 50px;">
   <hr>
   <div class="container">
-      <div class="row">
-          <div class="col-md-4">
+      <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content:  space-around; align-items: baseline;">
+
+          <div style="margin:10px 20px;">
               <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
           </div>
 
-          <div class="col-md-4">
+          <div style="margin:10px 20px;">
               <!--Made with  <span style="color: #e25555; font-size: x-large;">&#10084;</span>  by Prakhar Kumar-->
               Made with <span style="color: #e25555;"><i class="fa fa-heart" aria-hidden="true"></i></span> by Prakhar Kumar
           </div>
 
-          <div class="col-md-4">
+          <div style="margin: 20px 20px;">
               <ul class="list-inline social-buttons">
                   {% for network in site.social %}
                   <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
