@@ -1,0 +1,318 @@
+---
+modal-id: 3
+title: Product Programming and Test bench
+subtitle: Electronics | Mechanical Design
+layout: post
+date: 2020-08-29
+thumbnail: testing_jig/thumbnail.png
+permalink: /projects/:title:output_ext
+alt: :title
+project-date: July 2017
+category: Electronics,Mechanical
+description: A device to test for circuit issues before rolling it out.
+---
+
+<body style="text-align: left;">
+    <style>
+        div.scrollmenu {
+            overflow: auto;
+            white-space: nowrap;
+            margin-top: 5%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 3%;
+        }
+
+        div.scrollmenu img {
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        div.scrollmenu .inner_scroll_hori {
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            margin:auto 10px
+        }
+
+        figcaption {
+            font-style: italic;
+            padding: 2px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .button-add {
+            background-color: transparent; /* make the button transparent */
+            background-repeat: no-repeat;  /* make the background image appear only once */
+            border: none;           /* assuming we don't want any borders */
+        }
+
+    </style>
+
+
+    <div style="text-align: center; margin: auto;">
+        <img src="../projects/img/portfolio/testing_jig/thumbnail.png">
+    </div>
+
+    <div style="text-align: center;">
+        <h2><a>Product Programming and Test bench</a></h2>
+        <p>
+            This a completely customizable tesing and programming bench for printed circuit boards that can be used in small scale production.
+        </p>
+        <br clear="left" />
+    </div>
+
+    <div>
+        <h4 style="margin-bottom: auto"> Vision </h4>
+        <hr>
+        <p>
+            We all know how important it is for any hardware company to ensure that each product that they ship provides the same efficiency which was is promised to the customer. For this the product has to undergo a series of quality control testes before the final firmware is loaded and the product is packaged for shipping. This is often manual in small firms producing various products. During my summer internship I was presented with the problem and was asked to come up with a solution that can reduce the manual process of testing each component and hence increasing speed and reducing human error while keeping the price low. A rig was built that enabled the company to program as well as test the circuits produced automatically, hence, improving the quality and productivity during manufacture of the product.
+        </p>
+    </div>
+
+
+    <div style="margin-top: 40px;">
+
+        <h4 style="margin-bottom: auto"> Useage / Working </h4>
+        <hr>
+
+        The complete setup can be broken into 3 main parts viz.
+        <ul>
+            <li>The mechanical contraption</li>
+            <li>The embedded hardware and</li>
+            <li>The operating software</li>
+        </ul>
+        <br/>
+
+        <div style="margin-top: 10px;">
+            <div class="separator"> ◄ Scroll to Preview ► </div>
+        
+            <div id="hori_scroll_mouse" class="scrollmenu">
+                <div class="inner_scroll_hori">
+                    <img src="../projects/img/portfolio/testing_jig/p0.png" style="max-width:50vw;">
+                    <figcaption>The complete mechanical structure.</figcaption>
+                </div>
+                <div class="inner_scroll_hori">
+                    <img src="../projects/img/portfolio/testing_jig/p1.png" style="max-width:50vw;">
+                    <figcaption>The product fits perfectly into the slot.</figcaption>
+                </div>
+                <div class="inner_scroll_hori">
+                    <img src="../projects/img/portfolio/testing_jig/p3.png" style="max-width:50vw;">
+                    <figcaption> Product Placed into the slot.</figcaption>
+                </div>
+                <div class="inner_scroll_hori">
+                    <img src="../projects/img/portfolio/testing_jig/p2.png" style="max-width:50vw;">
+                    <figcaption>The array of pogo-pins for contact with circuit.</figcaption>
+                </div>
+            </div>
+        
+            <div style="text-align: center;">
+                <button id="slideLeft" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-left"></i></button>
+                <button id="slideRight" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-right"></i></button>
+            </div>
+        
+            <div class="separator" style="margin-bottom: 20px;">★</div>
+        
+        </div>
+
+        I will be demonstrating how each of these parts come together to build up the final testing and programming rig.
+        The mechanical structure was built using Aluminum socket, rods and clamps fixed on a box made up of temperature
+        resistant Bakelite along with a lever attached to the machined acrylic pieces that contains pogo pins for connection
+        to the circuit board to be tested. This ensured a rugged design for long-term usage.
+        <br /><br />
+    
+        This rig connects to a computer via USB to communicate the progress.
+        To test/program a device the technician lifts the lever to reveal the machined slot where the circuit fits
+        perfectly. The circuit is placed in that groove and the lever is pulled back down, making secure connections to the
+        test-pads as well as to the programming pads.
+        <br /> <br />
+    
+        The device then undergoes a series of tests designed for the circuit before it is finally programmed and packaged.
+        <br /> <br />
+    
+        The mechanical design was easily adaptable to any new product simply by replacing the “product cassette” or the
+        pin/pad configurations and the product slot. There were a bunch of sensors included in this cassette to test
+        functionality of components such as IR Led, RF antenna transmit and receive range etc.
+        <br /><br />
+        
+        The upper plate consisted of pogo pins, which are simply spring-loaded contact pins along with some placers which
+        are used to align the circuit board relative to these pins.
+        <br /><br />
+        The product or the test circuit for this type of testing requires to have exposed pads for the pins to connect to as opposed to In Circuit Testing.
+    
+    </div>
+
+    <hr>
+
+    <div style="margin-top: 40px;">
+
+        <div style="margin-top: 10px;">
+            <div class="separator"> ◄ Scroll to Preview ► </div>
+            
+            <div id="hori_scroll_mouse1" class="scrollmenu">
+                <img src="../projects/img/portfolio/testing_jig/p4.png" style="max-width:50vw;">
+                <img src="../projects/img/portfolio/testing_jig/p5.png" style="max-width:50vw;">
+                <img src="../projects/img/portfolio/testing_jig/p6.png" style="max-width:50vw;">
+                <img src="../projects/img/portfolio/testing_jig/p7.png" style="max-width:50vw;">
+                <img src="../projects/img/portfolio/testing_jig/p8.png" style="max-width:50vw;">
+                <img src="../projects/img/portfolio/testing_jig/p9.png" style="max-width:50vw;">
+                <img src="../projects/img/portfolio/testing_jig/p10.png" style="max-width:50vw;">        
+            </div>
+        
+            <div style="text-align: center;">
+                <button id="slideLeft1" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-left"></i></button>
+                <button id="slideRight1" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-right"></i></button>
+            </div>
+        
+            <div class="separator" style="margin-bottom: 20px;">★</div>
+        </div>  
+        
+        These various pins on the upper plate reach the main circuit board responsible for testing and communication with the host computer. The testing circuit board was built to fit on an existing custom programmer board built by the company enabling the programmer to provide testing functionality. The circuit was designed using KiCad and routed on a two-layer PCB.
+        <br/> 
+        The main components of the design were ATMega 328 and a NRF52. The Wi-Fi functionality was also tested using the ESP32 connected to the base board.
+        <br/><br/>
+
+        The design included various independent circuits to test for different parameters simultaneously. This board was capable of performing tests related to:
+
+        <ul>
+            <li>Power Management</li>
+            <li>Antenna Power and SNR</li>
+            <li>BLE and Wi-Fi Connection</li>
+            <li>LED</li>
+            <li>UART and SPI Bus</li>
+            <li>Tactile switches or buttons</li>
+        </ul>
+        
+        It also had several GPIOs that can be programmed to test other components in future.<br/>
+        This PCB communicated to the host PC Running a python-based application to display progress as well as to select various operations or testes required by the particular product. <br/>
+
+    </div>
+
+        <hr>
+
+    <div style="margin-top: 40px;">
+
+        <div style="margin-top: 10px;">
+            <div class="separator"> ◄ Scroll to Preview ► </div>
+            
+            <div id="hori_scroll_mouse2" class="scrollmenu">
+                <img src="../projects/img/portfolio/testing_jig/p11.png" style="max-width:50vw;">
+                <img src="../projects/img/portfolio/testing_jig/p12.png" style="max-width:50vw;">
+                <img src="../projects/img/portfolio/testing_jig/p13.png" style="max-width:50vw;">
+                <img src="../projects/img/portfolio/testing_jig/p14.png" style="max-width:50vw;">
+                <img src="../projects/img/portfolio/testing_jig/p15.png" style="max-width:50vw;"> 
+            </div>
+        
+            <div style="text-align: center;">
+                <button id="slideLeft2" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-left"></i></button>
+                <button id="slideRight2" type="button" class="button-add"><i class="fa fa-3x fa-arrow-circle-right"></i></button>
+            </div>
+        
+            <div class="separator" style="margin-bottom: 20px;">★</div>
+        </div>  
+        
+        The software to control the Jig was written completely using python. The GUI was supported by the pyQT5 library and utilized all the required tools such as avr-dude, ESP-IDF etc. required to program/test the circuit. The applicaion was completely modular, wherre the user can add or subtract a test feature for some other product in future. The screenshots above give a hint of the capabilities of the testing jig.
+        <br/>
+
+    </div>
+
+    <!--Script to enable horizontal mouse wheel support to a div-->
+    <script>
+        (function() {
+            function scrollHorizontally(e) {
+                e = window.event || e;
+                var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+                document.getElementById('hori_scroll_mouse').scrollLeft -= (delta*40); // Multiplied by 40
+                e.preventDefault();
+            }
+            if (document.getElementById('hori_scroll_mouse').addEventListener) {
+                // IE9, Chrome, Safari, Opera
+                document.getElementById('hori_scroll_mouse').addEventListener("mousewheel", scrollHorizontally, false);
+                // Firefox
+                document.getElementById('hori_scroll_mouse').addEventListener("DOMMouseScroll", scrollHorizontally, false);
+            } else {
+                // IE 6/7/8
+                document.getElementById('hori_scroll_mouse').attachEvent("onmousewheel", scrollHorizontally);
+            }
+        })();
+        </script>
+
+        <script>
+            (function() {
+                function scrollHorizontally(e) {
+                    e = window.event || e;
+                    var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+                    document.getElementById('hori_scroll_mouse1').scrollLeft -= (delta*40); // Multiplied by 40
+                    e.preventDefault();
+                }
+                if (document.getElementById('hori_scroll_mouse1').addEventListener) {
+                    // IE9, Chrome, Safari, Opera
+                    document.getElementById('hori_scroll_mouse1').addEventListener("mousewheel", scrollHorizontally, false);
+                    // Firefox
+                    document.getElementById('hori_scroll_mouse1').addEventListener("DOMMouseScroll", scrollHorizontally, false);
+                } else {
+                    // IE 6/7/8
+                    document.getElementById('hori_scroll_mouse1').attachEvent("onmousewheel", scrollHorizontally);
+                }
+            })();
+        </script>
+
+        <script>
+            (function() {
+                function scrollHorizontally(e) {
+                    e = window.event || e;
+                    var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+                    document.getElementById('hori_scroll_mouse2').scrollLeft -= (delta*40); // Multiplied by 40
+                    e.preventDefault();
+                }
+                if (document.getElementById('hori_scroll_mouse2').addEventListener) {
+                    // IE9, Chrome, Safari, Opera
+                    document.getElementById('hori_scroll_mouse2').addEventListener("mousewheel", scrollHorizontally, false);
+                    // Firefox
+                    document.getElementById('hori_scroll_mouse2').addEventListener("DOMMouseScroll", scrollHorizontally, false);
+                } else {
+                    // IE 6/7/8
+                    document.getElementById('hori_scroll_mouse2').attachEvent("onmousewheel", scrollHorizontally);
+                }
+            })();
+        </script>
+
+        <!--Script for buttons-->
+        <script>
+            const buttonRight1 = document.getElementById('slideRight1');
+            const buttonLeft1 = document.getElementById('slideLeft1');
+
+            buttonRight1.onclick = function () {
+            document.getElementById('hori_scroll_mouse1').scrollLeft += 50;
+            };
+            buttonLeft1.onclick = function () {
+            document.getElementById('hori_scroll_mouse1').scrollLeft -= 50;
+            };
+        </script>
+
+        <script>
+            const buttonRight = document.getElementById('slideRight');
+            const buttonLeft = document.getElementById('slideLeft');
+
+            buttonRight.onclick = function () {
+            document.getElementById('hori_scroll_mouse').scrollLeft += 50;
+            };
+            buttonLeft.onclick = function () {
+            document.getElementById('hori_scroll_mouse').scrollLeft -= 50;
+            };
+        </script>
+
+        <script>
+            const buttonRight2 = document.getElementById('slideRight');
+            const buttonLeft2 = document.getElementById('slideLeft');
+
+            buttonRight2.onclick = function () {
+            document.getElementById('hori_scroll_mouse').scrollLeft += 50;
+            };
+            buttonLeft2.onclick = function () {
+            document.getElementById('hori_scroll_mouse').scrollLeft -= 50;
+            };
+        </script>
+</body>
